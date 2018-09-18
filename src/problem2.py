@@ -2,8 +2,8 @@
 Exam 1, problem 2.
 
 Authors: David Mutchler, Vibha Alangar, Valerie Galluzzi, Mark Hays,
-         Amanda Stouder, their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Amanda Stouder, their colleagues and Kaia Johnson.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import testing_helper
 import time
@@ -20,7 +20,7 @@ def main():
 def problem2a_testing():
     """ Tests the   sum_of_digits_of_sum_of_factors   function. """
     ############################################################################
-    #  TODO: 2. Implement this TEST function.  See the IMPORTANT NOTE below.
+    #  DONE: 2. Implement this TEST function.  See the IMPORTANT NOTE below.
     #     This problem TESTS the    sum_of_digits_of_sum_of_factors    function
     #     that is defined below.  Include at least **   4   ** tests.
     #     Use the usual format:
@@ -44,6 +44,32 @@ def problem2a_testing():
     print('---------------------------------------------------------')
     print('Testing the   sum_of_digits_of_sum_of_factors   function:')
     print('---------------------------------------------------------')
+
+    # Test 1
+
+    expected = 3
+    actual = sum_of_digits_of_sum_of_factors(6)
+    print('Expected', expected)
+    print('Actual', actual)
+
+    # Test 2
+
+    expected = 4
+    actual = sum_of_digits_of_sum_of_factors(16)
+    print('Expected', expected)
+    print('Actual', actual)
+
+    # Test 3
+    expected = 8
+    actual = sum_of_digits_of_sum_of_factors(10)
+    print('Expected', expected)
+    print('Actual', actual)
+
+    # Test 4
+    expected = 10
+    actual = sum_of_digits_of_sum_of_factors(12)
+    print('Expected', expected)
+    print('Actual', actual)
 
 
 def sum_of_digits_of_sum_of_factors(n):
@@ -309,6 +335,9 @@ def problem2b(a, b, x):
          is great than or equal to 5 are: 16, 18, 20, and 24,
          and the sum   16 + 18 + 20 + 24   is 78.
      """
+        factors = x
+        for k in range(m-n+1)
+            total = total + total()
     ############################################################################
     # TODO: 4. Implement and test this function.  See the IMPORTANT NOTE below!
     #          Tests have been written for you (above).
@@ -432,6 +461,7 @@ def problem1c(m):
              11 13 17 19,
            and 11 + 13 + 17 + 19 = 60.
      """
+
     ############################################################################
     # TODO: 4. Implement and test this function.  See the IMPORTANT NOTE below!
     #          Tests have been written for you (above).
